@@ -3,7 +3,7 @@ Original corrupted images used for training             |  Network prediciton po
 :-------------------------:|:-------------------------:
 ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000before.png)  | ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000after.png)
 
-You can find in https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/RunScript.sh an example script to run the code for 80% label noise (M-DYR-H and M-DYR-S) and 90% label noise (MD-DYR-SH).
+You can find in https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/RunScripts.sh an example script to run the code for 80% label noise (M-DYR-H and M-DYR-S) and 90% label noise (MD-DYR-SH).
 
 Feel free to modify input parameters for any level of label noise (and other parameters in the paper).
 

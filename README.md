@@ -39,6 +39,26 @@ Please execute the following to get details about parameters. Most of them are c
 $ python train.py --h
 ```
 
+### Accuracies on CIFAR10
+
+|Algorithm\Noise level| |0|20|50|80|90|
+|----|----|----|----|----|----|----|
+|M-DYR-H|best|**93.6**|**94.0**|**92.0**|**86.8**|40.8|
+||last|**93.4**|**93.8**|**91.9**|**86.6**|9.9|
+|MD-DYR-SH|best|93.6|93.8|90.6|82.4|**69.1**|
+||last|92.7|93.6|90.3|77.8|**68.7**|
+
+### Accuracies on CIFAR100
+
+|Algorithm\Noise level| |0|20|50|80|90|
+|----|----|----|----|----|----|----|
+|M-DYR-H|best|70.3|68.7|61.7|**48.2**|12.5|
+||last|66.2|68.5|58.8|**47.6**|8.6|
+|MD-DYR-SH|best|**73.3**|**73.9**|**66.1**|41.6|**24.3**|
+||last|**71.3**|**73.34**|**65.4**|35.4|**20.5**|
+
+Accuracies are reported at the end of 300 epochs of training.
+
 Note: We thank authors from [1](https://github.com/facebookresearch/mixup-cifar10) for the mixup and Pytorch implementation of PreAct ResNet (https://github.com/facebookresearch/mixup-cifar10) \
 that we use in our code.
 

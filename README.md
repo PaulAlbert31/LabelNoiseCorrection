@@ -71,11 +71,13 @@ that we use in our code.
 ```
  @inproceedings{ICML2019_UnsupervisedLabelNoise,
   title = {Unsupervised Label Noise Modeling and Loss Correction},
-  authors = {Diego Ortego and Eric Arazo and Paul Albert and Noel E O'Connor and Kevin McGuinness},
+  authors = {Eric Arazo and Diego Ortego and Paul Albert and Noel E O'Connor and Kevin McGuinness},
   booktitle = {International Conference on Machine Learning (ICML)},
   month = {June},
   year = {2019}
  }
 ```
 
-Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Unsupervised Label Noise Modeling and Loss Correction, International Conference on Machine Learning (ICML), 2019
+Eric Arazo*, Diego Ortego*, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Unsupervised Label Noise Modeling and Loss Correction, International Conference on Machine Learning (ICML), 2019
+
+*Equal contribution

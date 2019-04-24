@@ -13,7 +13,6 @@ import random
 import os
 import numpy as np
 from matplotlib import pyplot as plt
-from IPython import embed
 import sys
 sys.path.append('../')
 from utils import *

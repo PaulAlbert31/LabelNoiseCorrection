@@ -9,7 +9,7 @@ import scipy.stats as stats
 import math
 import numpy as np
 from matplotlib import pyplot as plt
-from IPython import embed
+
 from sklearn.mixture import GaussianMixture as GMM
 from sklearn import preprocessing as preprocessing
 import sys

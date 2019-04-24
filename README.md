@@ -13,15 +13,31 @@ Additionally, the code is now supporting both CIFAR-10 and CIFAR-100 but feel fr
 | ------------- |
 | python == 3.6     |
 | pytorch == 0.4.1     |
-| numpy|
-| scipy|
+| cuda92|
+| torchvision|
+| matplotlib|
+| scikit-learn|
+| tqdm|
+
+### Environement
+If you are unsing conda, you can execute:
+```sh
+$ conda env create -f environment.yml
+$ conda activate lnoise
+```
+This will include all dependencies in a new conda environement called lnoise
 
 ### Supported datasets:
-  CIFAR-10 & CIFAR-100 datasets - python version, will be downloaded automatically to the path set with --dataset option
+CIFAR-10 & CIFAR-100 datasets are currtently supported and will be downloaded automatically to the path set with --dataset option
 
 ### We run our approach on:
 CPU: Intel(R) Core(TM) i7-6850K CPU @ 3.60GHz GPU: NVIDIA GTX1080Ti
 
+### Parameters details
+Please execute the following to get details about parameters. Most of them are correctly set by default to get the best possible final accuracy.
+``` sh
+$ python train.py --h
+```
 
 Note: We thank authors from [1](https://github.com/facebookresearch/mixup-cifar10) for the mixup and Pytorch implementation of PreAct ResNet (https://github.com/facebookresearch/mixup-cifar10) \
 that we use in our code.

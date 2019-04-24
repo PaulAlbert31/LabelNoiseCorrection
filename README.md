@@ -63,8 +63,7 @@ Accuracies are reported at the end of 300 epochs of training.
 Note: We thank authors from [1](https://github.com/facebookresearch/mixup-cifar10) for the mixup and Pytorch implementation of PreAct ResNet (https://github.com/facebookresearch/mixup-cifar10) \
 that we use in our code.
 
-[1] Hongyi Zhang, Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz, "mixup: Beyond Empirical Risk Minimization", in International Conference \
-on Learning Representations (ICLR), 2018.
+[1] Hongyi Zhang, Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz, "mixup: Beyond Empirical Risk Minimization", in International Conference on Learning Representations (ICLR), 2018.
 
 ### If you paper helps you in your research, please consider citing us.
 
@@ -78,4 +77,5 @@ on Learning Representations (ICLR), 2018.
   year = {2019}
  }
 ```
-***Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Unsupervised Label Noise Modeling and Loss Correction, International Conference on Machine Learning (ICML), 2019***
+
+Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Unsupervised Label Noise Modeling and Loss Correction, International Conference on Machine Learning (ICML), 2019

@@ -59,6 +59,17 @@ $ python train.py --h
 
 Accuracies are reported at the end of 300 epochs of training.
 
+Diego Ortega, Eric Arazo Sanchez, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Unsupervised Label Noise Modeling and Loss Correction, International Conference on Machine Learning (ICML), 2019
+
+@inproceedings{ICML2019_UnsupervisedLabelNoise,
+  title = {Unsupervised Label Noise Modeling and Loss Correction},
+  authors = {Diego Ortega and Eric Arazo Sanchez and Paul Albert and Noel E O'Connor and Kevin McGuinness},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  month = {June},
+  year = {2019}
+}
+
+
 Note: We thank authors from [1](https://github.com/facebookresearch/mixup-cifar10) for the mixup and Pytorch implementation of PreAct ResNet (https://github.com/facebookresearch/mixup-cifar10) \
 that we use in our code.
 

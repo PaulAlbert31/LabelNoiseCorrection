@@ -1,5 +1,5 @@
 # Official PyTorch implementation for the ICML 2019 paper: "Unsupervised label noise modeling and loss correction"
-Original corrupted images used for training             |  Network prediciton post training
+Original corrupted images used for training             |  Network predicitons post training
 :-------------------------:|:-------------------------:
 ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000before.png)  | ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000after.png)
 

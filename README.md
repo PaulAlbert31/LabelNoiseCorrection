@@ -7,7 +7,7 @@ You can find in https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master
 
 Feel free to modify input parameters for any level of label noise (and other parameters in the paper).
 
-Additionally, the code is now supporting both CIFAR-10 and CIFAR-100 but feel free to adapt it for other datasets such as TinyImagenet by changing the data loaders and modifying the noise addition function in https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/utils#53
+Additionally, the code is now supporting both CIFAR-10 and CIFAR-100 but feel free to adapt it for other datasets such as TinyImagenet by changing the data loaders and modifying the noise addition function in https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/utils.py#53
 
  | Dependencies  |
 | ------------- |

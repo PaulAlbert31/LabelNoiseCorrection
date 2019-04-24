@@ -78,4 +78,4 @@ on Learning Representations (ICLR), 2018.
   year = {2019}
  }
 ```
-*** Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Unsupervised Label Noise Modeling and Loss Correction, International Conference on Machine Learning (ICML), 2019 ***
+***Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness, Unsupervised Label Noise Modeling and Loss Correction, International Conference on Machine Learning (ICML), 2019***

@@ -1,4 +1,4 @@
-# Official PyTorch implementation for the ICML 2019 paper: "Unsupervised label noise modeling and loss correction"
+# Official PyTorch implementation for the ICML 2019 paper: "Unsupervised label noise modeling and loss correction" https://arxiv.org/abs/1904.11238
 Original corrupted images used for training             |  Network predicitons post training
 :-------------------------:|:-------------------------:
 ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000before.png)  | ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000after.png)
@@ -20,7 +20,7 @@ Additionally, the code is now supporting both CIFAR-10 and CIFAR-100 but feel fr
 | tqdm|
 
 ### Environement
-If you are unsing conda, you can execute:
+If you are using conda, you can execute:
 ```sh
 $ conda env create -f environment.yml
 $ conda activate lnoise
@@ -34,7 +34,7 @@ CIFAR-10 & CIFAR-100 datasets are currtently supported and will be downloaded au
 CPU: Intel(R) Core(TM) i7-6850K CPU @ 3.60GHz GPU: NVIDIA GTX1080Ti
 
 ### Parameters details
-Please execute the following to get details about parameters. Most of them are correctly set by default to get the best possible final accuracy.
+Execute the following to get details about parameters. Most of them are correctly set by default to get the best possible final accuracy.
 ``` sh
 $ python train.py --h
 ```

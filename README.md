@@ -65,7 +65,7 @@ that we use in our code.
 
 [1] Hongyi Zhang, Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz, "mixup: Beyond Empirical Risk Minimization", in International Conference on Learning Representations (ICLR), 2018.
 
-### If you paper helps you in your research, please consider citing us.
+### Please consider citing the following paper if you find this work useful your research.
 
 
 ```

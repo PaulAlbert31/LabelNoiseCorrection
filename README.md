@@ -34,7 +34,7 @@ CIFAR-10 & CIFAR-100 datasets are currtently supported and will be downloaded au
 CPU: Intel(R) Core(TM) i7-6850K CPU @ 3.60GHz GPU: NVIDIA GTX1080Ti
 
 ### Parameters details
-Execute the following to get details about parameters. Most of them are correctly set by default to get the best possible final accuracy.
+Execute the following to get details about parameters. Most of them are set by default to replicate our experiments.
 ``` sh
 $ python train.py --h
 ```

@@ -1,4 +1,4 @@
-# Official PyTorch implementation for the ICML 2019 paper: "Unsupervised label noise modeling and loss correction" https://arxiv.org/abs/1904.11238
+# Official PyTorch implementation for the ICML 2019 paper: "Unsupervised Label Noise Modeling and Loss Correction" https://arxiv.org/abs/1904.11238
 Training images with correct (green) and incorrect (red) label             |  Network predicitons post training
 :-------------------------:|:-------------------------:
 ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000before.png)  | ![couldn't find image](https://github.com/PaulAlbert31/LabelNoiseCorrection/blob/master/data/1000after.png)

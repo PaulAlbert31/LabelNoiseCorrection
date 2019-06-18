@@ -28,7 +28,7 @@ $ conda activate lnoise
 This will include all dependencies in a new conda environement called lnoise
 
 ### Supported datasets:
-CIFAR-10 & CIFAR-100 datasets are currtently supported and will be downloaded automatically to the path set with --dataset option
+CIFAR-10 & CIFAR-100 datasets are currently supported and will be downloaded automatically to the path set with --dataset option
 
 ### We run our approach on:
 CPU: Intel(R) Core(TM) i7-6850K CPU @ 3.60GHz GPU: NVIDIA GTX1080Ti

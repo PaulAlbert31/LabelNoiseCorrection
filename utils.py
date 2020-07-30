@@ -337,9 +337,9 @@ def train_mixUp_HardBootBeta(args, model, device, train_loader, optimizer, epoch
 
 def mixup_criterion_mixSoft(pred, y_a, y_b, B, lam, index, output_x1, output_x2):
     return torch.sum(
-        (0.5) * (
+        (lam) * (
                 (1 - B) * F.nll_loss(pred, y_a, reduction='none') + B * (-torch.sum(F.softmax(output_x1, dim=1) * pred, dim=1))) +
-                (0.5) * (
+                (1-lam) * (
                 (1 - B[index]) * F.nll_loss(pred, y_b, reduction='none') + B[index] * (-torch.sum(F.softmax(output_x2, dim=1) * pred, dim=1)))) / len(
         pred)
 
